@@ -70,7 +70,30 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header{
+margin:4% 0;
+}
+.top-nav{
+    width:800px;
+	padding:10px 0;
 
+	align-items: flex-end;
+	display: flex;
+    justify-content: space-between;
+    padding-right:5%;
+
+	
+	
+}
+
+.top-nav a{
+    color: black;
+	text-decoration-line: none;
+	font-size:1rem;
+}
+.header-img{
+    margin-top:4%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
