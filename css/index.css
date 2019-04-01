@@ -262,3 +262,16 @@ footer nav a {
     width:95%;
     margin-bottom:4%;
 }
+
+.contact-form{
+    display:flex;
+    
+    justify-content: space-around;
+    background:lightgrey;
+    margin-bottom:10%;
+}
+form {
+    border:3px solid black;
+    text-align: center;
+    padding:0 10%;
+}
