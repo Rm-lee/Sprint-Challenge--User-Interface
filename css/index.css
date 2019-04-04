@@ -61,7 +61,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+.card h3{
+    font-size:1.1rem;
 
+}
 p {
     line-height: 1.4;
 }
@@ -69,6 +72,44 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+header{
+
+margin:4% 0;
+
+}
+.about-header{
+    display:flex;
+    flex-flow:wrap;
+    justify-content: center;
+}
+.top-nav{
+    width:800px;
+	padding:10px 0;
+
+	align-items: flex-end;
+	display: flex;
+    justify-content: space-between;
+    padding-right:5%;
+
+	
+	
+}
+
+.top-nav a{
+    color: black;
+	text-decoration-line: none;
+
+}
+.top-nav a:first-of-type{
+    margin-left:-4%;
+}
+
+
+
+.header-img{
+    width:100%;
+    margin-top:4%;
 }
 
 .top-content {
@@ -104,12 +145,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box:nth-child(1){
+    background:teal;
+}
+.box:nth-child(2){
+    background:gold;
+}
+.box:nth-child(3){
+    background:cadetblue;
+}
+.box:nth-child(4){
+    background:coral;
+}
+.box:nth-child(5){
+    background:crimson;
+}
+.box:nth-child(6){
+    background:forestgreen;
+}
+.box:nth-child(7){
+    background:darkorchid;
+}
+.box:nth-child(8){
+    background:hotpink;
+}
+.box:nth-child(9){
+    background:indigo;
+}
+.box:nth-child(10){
+    background:dodgerblue;
 }
 
 .bottom-content {
@@ -138,9 +209,69 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    font-weight: 900;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-header{
+
+    border-bottom:1px dashed black;
+}
+.about-text{
+    width:95%;
+    margin:0 2.5%;
+
+    padding-bottom:3%;
+  
+}
+.about-card-holder{
+    display:flex;
+    flex-flow:wrap;
+    justify-content: space-around;
+    border-top:1px dashed black;
+    padding-top:4%;
+    
+}
+.card{
+    width:45%;
+    padding-bottom:3%;
+    border-bottom:1px dashed black;
+    margin-bottom:5%;
+}
+.card-img{
+    width:100%;
+    margin-bottom:4%;
+
+}
+.btn-lg-w{
+    margin-top:4%;
+    background:white;
+    border:2px solid black;
+    border-radius:10px;
+    padding:5px 20px;
+    font-size:1.1rem;
+}
+.about-bottom-content{
+    display: flex;
+    justify-content: center;
+}
+.about-exit-statement{
+    width:95%;
+    margin-bottom:4%;
+}
+
+.contact-form{
+    display:flex;
+    
+    justify-content: space-around;
+    background:lightgrey;
+    margin-bottom:10%;
+}
+form {
+    border:3px solid black;
+    text-align: center;
+    padding:0 10%;
 }
